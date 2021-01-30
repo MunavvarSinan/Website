@@ -21,10 +21,11 @@
       position: absolute;
       top: 0;
       right: 0;
-      bottom: 0;
+      bottom: -300px;
       left: 0;
-      // background-color: #6c757d;
+      background-color: #9fafbe;
       opacity: 0.7;
+    
     }
     .intro {
       position: absolute;
@@ -39,16 +40,23 @@
           font-size: 4rem;
           
         }
+        @media (max-width : 600px) {
+        font-size: 25px;
+        
+        }
       }
       .sub-title {
         font-weight: normal;
         max-width: 700px;
         margin: 0 auto;
-        letter-spacing: 1px;
-        font-size: 1.4rem;
+        letter-spacing: 2px;
+        // font-size: 25px;
 
         @media (min-width: 768px) {
           font-size: 1.2rem;
+        }
+        @media (max-width : 600px) {
+          font-size: 1rem;
         }
       }
     }
