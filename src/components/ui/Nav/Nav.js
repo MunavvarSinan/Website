@@ -61,11 +61,7 @@ const Nav = () => {
                 Services
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link target='blog' classes='nav-link'>
-                Blog
-              </Link>
-            </li>
+           
             <li className='nav-item'>
               <Link target='contact' classes='nav-link'>
                 Contact

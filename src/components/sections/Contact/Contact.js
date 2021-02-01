@@ -34,9 +34,7 @@ const contact = () =>{
             <span>Contact </span>Us
           </h3>
           <h6 className="section-subtitle mr-auto ml-auto">
-            Individualized quality care that meets the total needs of the
-            patient Individualized quality care that quality care that
-            Individualized quality care that meets the total.
+           YOU CAN CONNECT ME THROUGH GMAIL
           </h6>
         </div>
         <div className="section-content">
@@ -48,7 +46,7 @@ const contact = () =>{
                     type="text"
                     className="form-control rounded-0"
                     aria-describedby="emailHelp"
-                    placeholder="Enter Name..."
+                    placeholder="ENTER NAME"
                     name="name"
                   />
                 </div>
@@ -57,7 +55,7 @@ const contact = () =>{
                     type="email"
                     className="form-control rounded-0"
                     aria-describedby="emailHelp"
-                    placeholder="Enter email..."
+                    placeholder="ENTER EMAIL"
                     name="email"
                   />
                 </div>
@@ -65,7 +63,7 @@ const contact = () =>{
                   <input
                     type="text"
                     className="form-control rounded-0"
-                    placeholder="subject"
+                    placeholder="SUBJECT"
                     name="subject"
                   />
                 </div>
@@ -73,7 +71,7 @@ const contact = () =>{
                   <textarea
                     className="form-control rounded-0"
                     rows="5"
-                    placeholder="Enter Message..."
+                    placeholder="ENTER MESSAGE"
                     name="message"
                   />
                 </div>

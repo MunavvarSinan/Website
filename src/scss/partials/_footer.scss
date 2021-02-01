@@ -1,13 +1,17 @@
 footer {
-  background: #292f35;
+  // background: #292f35;
+  back
   .footer-title {
     position: relative;
     margin-bottom: 2rem;
+    
+   
     &:after {
       content: '';
       display: inline-block;
       position: absolute;
       width: 50px;
+      
       height: 2px;
       background: #248eff;
       top: 30px;
@@ -27,10 +31,16 @@ footer {
       font-size: 0.9rem;
       display: inline-block;
       padding: 0.3rem 0;
-      color: #6c757d !important;
+      color: #060606 !important;
       &:hover {
-        color: lighten(#6c757d, 20%) !important;
+        color: lighten(#1780f0, 20%) !important;
       }
     }
   }
+  .text-muted {
+   
+      color: #060606!important;
+    
+  }
+ 
 }
