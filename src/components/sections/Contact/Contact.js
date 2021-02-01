@@ -92,8 +92,3 @@ const contact = () =>{
 };
 
 export default contact;
-{
-  /* <button className='btn btn-block btn-primary rounded-0 mr-auto ml-auto'>
-                    Send
-                  </button> */
-}

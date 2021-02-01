@@ -7,16 +7,6 @@ const about = () => {
   return (
     <Section id="about">
       <div className="container pt-2 pb-5">
-        {/* <div className='section-header pt-5 pb-5 text-center'>
-          <h3 className='section-title'>
-            <span>Our </span>Company
-          </h3>
-          <h6 className='section-subtitle mr-auto ml-auto'>
-            Individualized quality care that meets the total needs of the
-            patient Individualized quality care that quality care that
-            Individualized quality care that meets the total.
-          </h6>
-        </div> */}
         <div className="section-content">
           <div className="row">
             <div className="col-md-12 col-lg-6 mb-3">
@@ -42,7 +32,6 @@ const about = () => {
                   Intrested in fullstack development and working on ambitious
                   projects with positive people
                 </p>
-                {/* <button className='btn btn-primary rounded-0'>Read More</button> */}
               </div>
             </div>
           </div>

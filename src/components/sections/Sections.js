@@ -1,12 +1,10 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 
-import Home from './Home/Home';
-import About from './About/About';
-import Service from './Service/Service';
-
-// import Blog from './Blog/Blog';
-import Contact from './Contact/Contact';
-import MapMarker from './MapMarker/MapMarker';
+import Home from "./Home/Home";
+import About from "./About/About";
+import Service from "./Service/Service";
+import Contact from "./Contact/Contact";
+import MapMarker from "./MapMarker/MapMarker";
 
 const sections = () => {
   return (
@@ -14,8 +12,6 @@ const sections = () => {
       <Home />
       <About />
       <Service />
-      {/* <Blog /> */}
-     
       <Contact />
       <MapMarker />
     </Fragment>
