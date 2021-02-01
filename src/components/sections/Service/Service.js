@@ -20,7 +20,7 @@ const Service = () => {
           <div className='row'>
             <div className='col-md-6 col-lg-4 mb-3'>
               <div className='service-box d-flex'>
-                <div className='service-icon mr-4'>
+                <div className='service-icon mr-4' style = {{color :"black"}}>
                   <i className='fas fa-briefcase' />
                 </div>
                 <div className='service-body'>
@@ -34,7 +34,7 @@ const Service = () => {
             </div>
             <div className='col-md-6 col-lg-4 mb-3'>
               <div className='service-box d-flex'>
-                <div className='service-icon mr-4'>
+                <div className='service-icon mr-4' style = {{color :"black"}}>
                   <i className='fas fa-chart-bar' />
                 </div>
                 <div className='service-body'>
@@ -48,7 +48,7 @@ const Service = () => {
             </div>
             <div className='col-md-6 col-lg-4 mb-3'>
               <div className='service-box d-flex'>
-                <div className='service-icon mr-4'>
+                <div className='service-icon mr-4' style = {{color :"black"}}>
                   <i className='fas fa-fist-raised' />
                 </div>
                 <div className='service-body'>

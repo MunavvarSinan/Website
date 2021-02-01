@@ -1,12 +1,12 @@
 #services {
-  background-color: #393e46;
+  background-color: #b7c3cc;
 }
 .service-box {
   padding: 2rem;
-  border: 1px solid #060608;
+  // border: 1px solid #060608;
   // box-shadow: 2px 2px 4px #e9ebef;
   margin-bottom: 1rem;
-  background: #606470;
+  background: #d0e0e1;
   .service-icon {
     font-size: 2rem;
     color: #248eff;
@@ -14,7 +14,7 @@
   .service-body {
     .service-title {
       font-size: 1.1rem;
-      color: #fff;
+      color: #060606;
       margin-bottom: 1.2rem;
     }
     &:after {
@@ -23,7 +23,7 @@
       display: block;
       height: 2px;
       width: 70px;
-      background: #248eff;
+      background: #060606;
       position: absolute;
       top: 58px;
       left: 32%;
@@ -31,7 +31,7 @@
     }
     .service-description {
       font-size: 0.9rem;
-      color: #bbe1fa;
+      color: #060606;
     }
   }
 }
